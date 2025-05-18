@@ -9,5 +9,11 @@
         }
       ]
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/MemoLens1.0.5.apk",
+      "destination": "/MemoLens1.0.5.apk"
+    }
   ]
 }

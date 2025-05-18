@@ -16,8 +16,9 @@ function HeroSection() {
   <button
     onClick={() => {
       const link = document.createElement('a');
-      link.href = '/Memolens1.0.5.apk';
+      link.href = '/MemoLens1.0.5.apk';
       link.setAttribute('download', 'MemoLens_v1.0.5.apk');
+      link.target = "_blank";
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
